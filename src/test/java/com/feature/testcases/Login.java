@@ -21,7 +21,7 @@ public class Login {
 		System.out.println("user enters email as: "+emailAddress+" in the "+usernameField+" field");
 	}
 	
-	@And("^user enters ([^\"]*) in the ([^\"]*) field$")
+	@And("^enters the pwd as ([^\"]*) in the ([^\"]*) field$")
 	public void enterPwd(String pwd, String pwdField) {
 		System.out.println("user enters pwd as: "+pwd+" in the "+pwdField+" field");
 	}
