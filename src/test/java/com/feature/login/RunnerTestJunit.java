@@ -1,9 +1,11 @@
-package com.feature.runner;
+package com.feature.login;
 
-import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
+import org.junit.runner.RunWith;
 
-//@RunWith(Cucumber.class)
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
 @CucumberOptions(
 		dryRun=true,
 		//strict=false,
@@ -11,11 +13,11 @@ import io.cucumber.testng.CucumberOptions;
 		features= {"src/test/resources"},
 		glue = {"com.feature.testcases"},
 		plugin = {
-				"pretty",
+				//"pretty",
 				"html:target/site/html-report.html",
 				"json:target/cucumber1.json"
 		}
 )
-public class Runner extends AbstractTestNGCucumberTests{
+public class RunnerTestJunit{
 	
 }
