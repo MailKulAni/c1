@@ -19,8 +19,9 @@ public class WebConnector {
 		// decide which browser to open
 		
 		if(browser.equalsIgnoreCase("chrome")) {
-			String chromedriverPath = System.getProperty("user.dir")+"/src/test/resources/com/drivers/chromedriver";
+			String chromedriverPath = System.getProperty("user.dir")+"/src/resources/java/drivers/chromedriver";
 			System.out.println("chromedriverPath : "+chromedriverPath);
+			
 			System.setProperty("Webdriver.chrome.driver",chromedriverPath);
 			driver = new ChromeDriver();
 		}else if(browser.equalsIgnoreCase("firefox")) {

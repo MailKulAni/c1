@@ -6,11 +6,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-public class GenericSteps {
+public class GenericTest {
 	
 	WebConnector con;
 	
-	public GenericSteps(WebConnector con) {
+	public GenericTest(WebConnector con) {
 		this.con=con;
 	}
 
