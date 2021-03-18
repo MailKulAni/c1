@@ -3,7 +3,7 @@
 <suite name="BDD Test">
    <test name="Login Redif Money">
       <classes>
-         <class name="com.feature.runner.Runner"/>
+         <class name="src.test.java.com.feature.runner.Runner"/>
       </classes>
    </test>
    <!-- Test -->

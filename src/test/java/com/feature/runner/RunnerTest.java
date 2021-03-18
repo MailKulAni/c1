@@ -16,6 +16,8 @@ import io.cucumber.testng.CucumberOptions;
 				"json:target/cucumber1.json"
 		}
 )
-public class Runner extends AbstractTestNGCucumberTests{
+
+//extends AbstractTestNGCucumberTests
+public class RunnerTest extends AbstractTestNGCucumberTests{
 	
 }
